@@ -24,7 +24,7 @@ const Home: React.FC = () => {
   ]
   return (
     <div>
-      <h1 className="text-4xl font-bold mb-4 ml-[40%]">3D Coverflow Slider</h1>
+      <h1 className="text-4xl font-bold mb-4 ml-[40%] text-slate-100">3D Coverflow Slider</h1>
       <Swiper
         effect={'coverflow'}
         navigation={true}
@@ -38,6 +38,7 @@ const Home: React.FC = () => {
           modifier: 1,
           slideShadows: true,
         }}
+        pagination={true}
         modules={[EffectCoverflow, Pagination]}
       >
         <div className='mt-7'>

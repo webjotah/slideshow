@@ -6,6 +6,10 @@
   --swiper-navigation-sides-offset: 100px;
 }
 
+body{
+  background-color: rgb(20, 20, 20)
+}
+
 .slide-item{
   height: 550px;
   object-fit: cover;
